@@ -23,7 +23,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run Pulse bot
-        run: python pulse.py
+        run: python bot.py
 
       - name: Upload summary as artifact
         uses: actions/upload-artifact@v4
